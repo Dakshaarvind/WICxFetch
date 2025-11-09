@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 import asyncio
 
 # Replace this with YOUR AI agent's address from the logs
-AI_AGENT_ADDRESS = "agent1qdpzrc02a8lnlzaahtdyy3wnaux64pqa22vykp59tx67jx2mmy3dzf249jk"
+AI_AGENT_ADDRESS = "agent1qt04xmwn35u3uzxc5r56ra58e0f26e8thgc9dp87cl3tkn9fh3sp79s74h6"
 
 agent = Agent(name="simple test agent",
               seed="simple_test_agent_seed_12345",  # Changed seed
