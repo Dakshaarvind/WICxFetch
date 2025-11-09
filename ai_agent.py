@@ -12,8 +12,8 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 agent = Agent(name="open_ai_agent",
               seed="open_ai_agent_seed_phrase_12345",  # Add your unique seed
-              port=8000,
-              endpoint=["http://127.0.0.1:8000/submit"]
+              port=9001,
+              endpoint=["http://127.0.0.1:9001/submit"]
               )
 
 class AIRequest(BaseModel):
