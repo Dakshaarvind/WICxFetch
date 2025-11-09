@@ -2,8 +2,8 @@ Simple demo - Create your first agent with Fetch.ai!
 
 After cloning this repo, do the following:
 
-1) Create a virtual env for the project and activate it. Install all dependencies, I use python vers 3.12.10
-due to dependency issues with the pydantic model
+1) Create a virtual env for the project and activate it (use myenv\Scripts\activate here). Install all dependencies, I use python vers 3.12.10
+due to dependency issues with the pydantic model. 
 
 2) Create your OpenAI API key and add it to your gitignore file
 
